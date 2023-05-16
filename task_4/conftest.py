@@ -13,7 +13,7 @@ def pytest_addoption(parser):
 
     )
     parser.addoption(
-        "--error_status_code",
+        "--status_code_error",
         default=404,
 
     )
